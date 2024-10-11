@@ -9,10 +9,7 @@ elif int1 >= len(Words) or int2 >= len(Words):
     print("Index out of range")
 else:
     for index in range(int1, int2+1):
-        print(Words[index],end="")
-        
-# To be honest doctor I used AI in the last step, but believe me after a lot of searching.
-    
+        print(Words[index],end="")    
 
 
 
