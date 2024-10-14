@@ -10,9 +10,3 @@ elif int1 >= len(Words) or int2 >= len(Words):
 else:
     for index in range(int1, int2+1):
         print(Words[index],end="")    
-
-
-
-
-
- 
