@@ -15,7 +15,6 @@ def is_palindrome(val) -> bool:
     s = Stack()
     for i in val:
         s.push(i)
-        
     reversed_word = ""
     top_letter = s.pop()
     while top_letter != None:
